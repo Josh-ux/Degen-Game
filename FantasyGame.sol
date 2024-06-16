@@ -15,7 +15,7 @@ contract FantasyGame is ERC20 {
     mapping(address => Item[]) public playerItems;
     mapping(uint256 => Item) public storeItems;
 
-    constructor() ERC20("FantasyGameToken", "FGT") {
+    constructor() ERC20("Degen", "DGN") {
         owner = msg.sender;
         // Adding some items to the store
         storeItems[1] = Item("Sword", 100, 1);
